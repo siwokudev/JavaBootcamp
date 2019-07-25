@@ -1,0 +1,82 @@
+package com.siwoku.eventcalendar.model;
+
+import javax.persistence.Column;
+import javax.persistence.Table;
+
+@Table(name = "USER")
+public class User {
+	@Column(name = "id")
+	private int id;
+	@Column(name = "id_cohort")
+	private int idCohort;
+	@Column(length = 100)
+	private String name;
+	@Column
+	private String email;
+	@Column
+	private String password;
+	@Column(name = "registered")
+	private boolean isRegistered = false;
+
+	public User() {
+	}
+
+	public User(int id, int idCohort, String name, String email, String password, boolean isRegistered) {
+		super();
+		this.id = id;
+		this.idCohort = idCohort;
+		this.name = name;
+		this.email = email;
+		this.password = password;
+		this.isRegistered = isRegistered;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public int getIdCohort() {
+		return idCohort;
+	}
+
+	public void setIdCohort(int idCohort) {
+		this.idCohort = idCohort;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public boolean isRegistered() {
+		return isRegistered;
+	}
+
+	public void setRegistered(boolean isRegistered) {
+		this.isRegistered = isRegistered;
+	}
+
+}

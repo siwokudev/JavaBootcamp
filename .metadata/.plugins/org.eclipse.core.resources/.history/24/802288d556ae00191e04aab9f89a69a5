@@ -1,0 +1,21 @@
+package com.junitpractica1.test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import com.junitpractica1.model.Operaciones;
+
+class OperacionesTest {
+
+	@Test
+	void testSumaEnteros() {
+		Operaciones operaciones = new Operaciones();
+		
+		int resultadoReal;
+		int resultadoEsperado = 20;
+		resultadoReal = operaciones.sumaEnteros(10, 10);
+		assertEquals(resultadoEsperado,resultadoReal);
+	}
+
+}

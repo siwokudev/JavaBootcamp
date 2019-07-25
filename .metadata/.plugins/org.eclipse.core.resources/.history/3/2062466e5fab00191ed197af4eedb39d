@@ -1,0 +1,5 @@
+package com.siwoku.eventcalendar.model;
+
+public class User {
+
+}

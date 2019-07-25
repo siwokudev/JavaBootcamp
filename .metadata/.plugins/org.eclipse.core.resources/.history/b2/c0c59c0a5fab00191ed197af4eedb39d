@@ -1,0 +1,6 @@
+package com.siwoku.eventcalendar.model;
+
+public class EventType {
+	private int id;
+	private String type;
+}

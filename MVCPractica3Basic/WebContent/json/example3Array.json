@@ -1,0 +1,25 @@
+//este es un json vacio
+[]
+
+//json de arrays y array
+[
+[],[],[],[]
+]
+
+//json de arrays de cadenas
+[
+"Dani","Jani","Fani","Meli","Romi"
+]
+
+//json de numeros
+[
+1,2,34,56.7,7E10,-10.3e-10
+]
+
+//Json de arrays
+[
+	[10,20,30],
+	["p","u","e","r","c","o"],
+	[1.2,3.4,5.6],
+	["Emma","Alam",]
+]

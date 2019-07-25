@@ -1,0 +1,66 @@
+//Ejemplo 1 Json objetos vacio
+{}
+
+//Json objetos 1 objeto
+{
+	"Nombre" : "Jani",
+	"Apellido" : "Irepan",
+	"Edad" : 43,
+	"Estatura" : 1.30
+}
+
+//json objetos, 1 objeto con su nombre
+{
+	"Persona" : {
+		"Nombre" : "Axel",
+		"Apellido" : "Unzon",
+		"Edad" : 76,
+		"Estatura" : 1.5
+	}
+}
+
+//json objetos, varios con su nombre
+{
+	"Persona1" : {
+		"Nombre" : "Axel",
+		"Apellido" : "Unzon",
+		"Edad" : 76,
+		"Estatura" : 1.5
+	}, 
+	"Persona2" : {
+		"Nombre" : "Diana",
+		"Apellido" : "Campos",
+		"Edad" : 15,
+		"Estatura" : 1.6
+	},
+	"Persona3" : {
+		"Nombre" : null,
+		"Apellido" : null,
+		"Edad" : null,
+		"Estatura" : null,
+		"IsSoltero" : false,
+		"IsPeloNegro": true
+	}
+}
+
+//json con objetos con arrays
+{
+	"Persona4" : {
+		"nombre" : "Oscar",
+		"Apellido" : "Santana",
+		"Apodo" : ["Zeus","Hércules","Macho","Leon","Papacito"],
+		"Alumnos" : {
+			"Alumno1" : {
+				"nombre" : "Miguel",
+				"Apellido" : "Quien Sabe",
+				"Edad" : 33,
+				"Estatura" : 1.25
+			},
+			"Alumno2" : {
+				"Nombre" : "jesus",
+				"pagina web" : "http://jesus.com"
+			},
+			"Alumno3" : {}
+		}		
+	}
+}

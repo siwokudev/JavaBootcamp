@@ -1,0 +1,27 @@
+INDEX VERSION 1.131
+C:\GenerationsAlan\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3164146293.index
+\ctest1
+C:\GenerationsAlan\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3620736784.index
+\ctest1\src
+C:\GenerationsAlan\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3582614685.index
+\SVNPractica1\src
+C:\GenerationsAlan\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\61064375.index
+\GitPractica2Cohort15\src
+C:\GenerationsAlan\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1213358036.index
+\MavenPractica2\src\main\resources
+C:\GenerationsAlan\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1726545508.index
+\SVNPractica1\src
+C:\GenerationsAlan\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2267948614.index
+\GitPractica1\src
+C:\GenerationsAlan\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4016498908.index
+\MavenPractica4\src\main\resources
+C:\GenerationsAlan\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3439682247.index
+\MVCPractica7\src
+C:\GenerationsAlan\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\355208090.index
+\MVCPractica7Session\src
+C:\GenerationsAlan\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3997275402.index
+\MVPractica6JSP\src
+C:\GenerationsAlan\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2387137885.index
+\MVCPractica5JSP\src
+C:\GenerationsAlan\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4082765871.index
+\MavenPractica3\src

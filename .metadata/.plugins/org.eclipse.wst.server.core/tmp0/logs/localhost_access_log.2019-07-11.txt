@@ -1,0 +1,16 @@
+127.0.0.1 - - [11/Jul/2019:16:49:01 -0500] "GET / HTTP/1.1" 404 1002
+0:0:0:0:0:0:0:1 - - [11/Jul/2019:16:49:03 -0500] "GET /MVCPractica3Basic/ HTTP/1.1" 200 775
+127.0.0.1 - - [11/Jul/2019:16:52:18 -0500] "GET / HTTP/1.1" 404 1002
+127.0.0.1 - - [11/Jul/2019:16:53:33 -0500] "GET / HTTP/1.1" 404 1002
+0:0:0:0:0:0:0:1 - - [11/Jul/2019:16:53:58 -0500] "GET /MVCPractica3Basic/ HTTP/1.1" 200 916
+0:0:0:0:0:0:0:1 - - [11/Jul/2019:16:53:58 -0500] "GET /favicon.ico HTTP/1.1" 404 1013
+0:0:0:0:0:0:0:1 - - [11/Jul/2019:16:54:20 -0500] "POST /MVCPractica3Basic/PersonasServlet HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2019:16:56:42 -0500] "GET / HTTP/1.1" 404 1002
+0:0:0:0:0:0:0:1 - - [11/Jul/2019:16:56:47 -0500] "POST /MVCPractica3Basic/PersonasServlet HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [11/Jul/2019:16:56:50 -0500] "GET /MVCPractica3Basic/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [11/Jul/2019:16:56:52 -0500] "POST /MVCPractica3Basic/PersonasServlet HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [11/Jul/2019:16:56:55 -0500] "GET /MVCPractica3Basic/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [11/Jul/2019:16:57:02 -0500] "POST /MVCPractica3Basic/PersonasServlet HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2019:16:59:27 -0500] "GET / HTTP/1.1" 404 1002
+0:0:0:0:0:0:0:1 - - [11/Jul/2019:16:59:34 -0500] "GET /MVCPractica3Basic/ HTTP/1.1" 200 915
+0:0:0:0:0:0:0:1 - - [11/Jul/2019:16:59:36 -0500] "GET /MVCPractica3Basic/PersonasServlet?txtNombre=Alan&txtEdad=31&txtSalario=23&txtTelefono=12ret23 HTTP/1.1" 200 75
