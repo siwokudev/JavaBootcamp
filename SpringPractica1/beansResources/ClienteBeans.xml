@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context.xsd">
+	<bean id="Neltzy"
+	class="com.springpractica1.model.ClienteBean">
+		<property name="id" value="7"></property>
+		<property name="nombre" value="Neltzy"></property>
+		<property name="domicilio" value="Ijalty"></property>
+		<property name="telefono" value="312 222"></property>
+		<property name="edad" value="24"></property>
+	</bean>
+	
+	<bean id="Gerardo"
+	class="com.springpractica1.model.ClienteBean">
+		<property name="id" value="8"></property>
+		<property name="nombre" value="Geras"></property>
+		<property name="domicilio" value="Ijalty"></property>
+		<property name="telefono" value="313 333"></property>
+		<property name="edad" value="22"></property>
+	</bean>
+</beans>

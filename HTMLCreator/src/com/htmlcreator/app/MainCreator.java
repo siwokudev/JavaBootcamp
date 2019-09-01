@@ -8,8 +8,8 @@ import java.io.BufferedWriter;
 public class MainCreator {
 
 	public static void main(String[] args) {
-		String projectName = "test";
-		String directoryPath = "C:\\GenerationsAlan\\Workspace\\MVCPractica8\\WebContent";
+		String projectName = "";
+		String directoryPath = "C:\\GenerationsAlan\\Workspace\\JSFPractica3CRUD\\WebContent";
 		String finalPath = null;
 		String[] foldersName = {"css","scripts","images","fonts","json","media","media\\audio","media\\video"};
 		boolean correctInput = false;

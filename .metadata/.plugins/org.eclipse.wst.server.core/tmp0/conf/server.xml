@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\GenerationsAlan\Workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\GenerationsAlan\Workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\GitPractica1" path="/GitPractica1" reloadable="true" source="org.eclipse.jst.jee.server:GitPractica1"/></Host>
+      <Context docBase="C:\GenerationsAlan\Workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\GenerationsAlan\Workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSFPractica3CRUD" path="/JSFPractica3CRUD" reloadable="true" source="org.eclipse.jst.jee.server:JSFPractica3CRUD"/><Context docBase="C:\GenerationsAlan\Workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\QTMeats" path="/QTMeats" reloadable="true" source="org.eclipse.jst.jee.server:QTMeats"/></Host>
     </Engine>
   </Service>
 </Server>

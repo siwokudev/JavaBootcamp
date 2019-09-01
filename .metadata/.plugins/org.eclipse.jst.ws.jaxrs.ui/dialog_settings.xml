@@ -1,3 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="org.eclipse.jst.ws.jaxrs.ui.jaxrsFacetInstall">
+		<item value="" key="jaxrs-no-op-library-providerservletClassname"/>
+		<item value="JAX-RS Servlet" key="servletName"/>
+		<section name="urlMappings">
+			<list key="pattern">
+				<item value="/jaxrs/*"/>
+			</list>
+		</section>
+	</section>
 </section>

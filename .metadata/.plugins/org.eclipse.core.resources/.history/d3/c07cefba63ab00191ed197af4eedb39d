@@ -1,7 +1,0 @@
-package com.siwoku.eventcalendar.repository;
-
-import org.springframework.data.repository.CrudRepository;
-
-public interface UserRepository extends CrudRepository<User, int>{
-
-}

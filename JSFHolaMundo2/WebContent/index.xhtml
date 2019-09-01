@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:pt="http://xmlns.jcp.org/jsf/passthrough">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>JSF práctica 1</title>
+</head>
+<body>
+
+	<h:outputText value="Hola crayola 2"></h:outputText>
+
+	<h2>Practica JSF</h2>
+	<h:button value="Presioname!!" onclick="alert('funcionando')"></h:button>
+
+	<h2>Mensaje</h2>
+	<h:form>
+		<p>
+			<h:outputLabel for="txtMensaje">Introduce un mensaje</h:outputLabel>
+		</p>
+		<p>
+			<h:inputText id="txtMensaje" value="#{mensaje.msg}"></h:inputText>
+		</p>
+		<p>
+			<h:commandButton value="Enviar Mensaje"></h:commandButton>
+		</p>
+		<p>
+			<h:outputText value="#{mensaje.msg}"></h:outputText>
+		</p>
+	</h:form>
+
+	<h:form>
+		<p>
+			<h:outputLabel for="txtNum1" value="Introduce un numero"></h:outputLabel>
+			<h:inputText id="txtNum1" value="#{mates.numero1}"></h:inputText>
+		</p>
+		<p>
+			<h:outputLabel for="txtNum2" value="Introduce otro numero"></h:outputLabel>
+			<h:inputText id="txtNum2" value="#{mates.numero2}"></h:inputText>
+		</p>
+		<p>
+			<h:commandButton value="Sumalos"></h:commandButton>
+		</p>
+		<p>
+			<h:outputText value="#{mates.numero1 + mates.numero2}"></h:outputText>
+		</p>
+		<p>
+			<h:outputText value="#{mates.sumaNumeros()}"></h:outputText>
+		</p>
+		
+	</h:form>
+
+
+</body>
+</html>

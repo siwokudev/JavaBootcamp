@@ -38,12 +38,40 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
-			<item value="MavenPractica3"/>
+			<item value="SpringPractica1"/>
+			<item value="JSFPractica3"/>
+			<item value="JSFHolaMundo"/>
+			<item value="JSFHolaMundo2"/>
+			<item value="HibernatePractica2"/>
+			<item value="HibernatePractica1"/>
+			<item value="AlgoritmosRestService"/>
+			<item value="CRUDRest"/>
+			<item value="RestPractica3"/>
+			<item value="RestPractica2"/>
+			<item value="RestPractica1"/>
+			<item value="QTMeats"/>
+			<item value="MVCPractica10CrudAjax"/>
+			<item value="TercerCRUDconAJAX"/>
+			<item value="SegundoCRUD"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="MavenPractica3"/>
+			<item value="SpringPractica1"/>
+			<item value="JSFPractica3"/>
+			<item value="JSFHolaMundo"/>
+			<item value="JSFHolaMundo2"/>
+			<item value="HibernatePractica2"/>
+			<item value="HibernatePractica1"/>
+			<item value="AlgoritmosRestService"/>
+			<item value="CRUDRest"/>
+			<item value="RestPractica3"/>
+			<item value="RestPractica2"/>
+			<item value="RestPractica1"/>
+			<item value="QTMeats"/>
+			<item value="MVCPractica10CrudAjax"/>
+			<item value="TercerCRUDconAJAX"/>
+			<item value="SegundoCRUD"/>
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>

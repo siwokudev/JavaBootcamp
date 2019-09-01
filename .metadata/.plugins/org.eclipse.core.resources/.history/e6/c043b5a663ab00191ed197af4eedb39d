@@ -1,5 +1,0 @@
-package com.siwoku.eventcalendar.repository;
-
-public interface UserRepository {
-
-}

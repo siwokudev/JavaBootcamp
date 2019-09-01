@@ -1,23 +1,29 @@
 package com.siwoku.eventcalendar.model;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
 @Table(name = "user")
 public class User {
-	
+
 	@Id
 	@Column(name = "id")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 
-	@Column(name = "id_cohort")
-	private Integer idCohort;
+	@ManyToOne(cascade = CascadeType.MERGE)
+	@JoinColumn(name = "id_cohort", nullable = false)	
+	private Cohort cohort;
 
 	@Column(length = 100)
 	private String name;
@@ -28,13 +34,16 @@ public class User {
 	@Column(length = 100)
 	private String password;
 
-	@Column(name = "registered")
+	@Column(name = "registered", nullable = false)
 	private Boolean isRegistered;
-	
-	public User() { }
 
-	public User(Integer idCohort, String name, String email, String password, Boolean isRegistered) {
-		this.idCohort = idCohort;
+	public User() {
+	}
+
+	public User(Integer id, Cohort cohort, String name, String email, String password, Boolean isRegistered) {
+		super();
+		this.id = id;
+		this.cohort = cohort;
 		this.name = name;
 		this.email = email;
 		this.password = password;
@@ -49,12 +58,12 @@ public class User {
 		this.id = id;
 	}
 
-	public Integer getIdCohort() {
-		return idCohort;
+	public Cohort getCohort() {
+		return cohort;
 	}
 
-	public void setIdCohort(Integer idCohort) {
-		this.idCohort = idCohort;
+	public void setCohort(Cohort cohort) {
+		this.cohort = cohort;
 	}
 
 	public String getName() {

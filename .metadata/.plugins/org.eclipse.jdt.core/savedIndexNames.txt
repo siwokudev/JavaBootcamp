@@ -1,14 +1,4 @@
 INDEX VERSION 1.131+C:\GenerationsAlan\Workspace\.metadata\.plugins\org.eclipse.jdt.core
-2586523502.index
-3488879677.index
-349764074.index
-2090610627.index
-387695846.index
-435852124.index
-2666400773.index
-3277000323.index
-1130607879.index
-2176872938.index
-2627725677.index
-3925805468.index
-3956757363.index
+1188785453.index
+1878111493.index
+315045800.index
