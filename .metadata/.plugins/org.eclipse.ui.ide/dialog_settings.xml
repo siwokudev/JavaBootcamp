@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\GenerationsAlan\Workspace\Java Calculator 2\Java Calculator 2"/>
+		<item value="C:\GenerationsAlan\proyectoFinal\fullstackproject"/>
+		<item value="C:\GenerationsAlan\Workspace\qtmeatsSpring\qtmeats"/>
 		<item value="C:\GenerationsAlan\Workspace\GitPractica2Cohort15"/>
 		<item value="C:\GenerationsAlan\Workspace\svnprro"/>
 		<item value="C:\GenerationsAlan\Workspace\EventCalendar"/>
@@ -13,6 +16,7 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\GenerationsAlan\proyectoFinal\fullstackproject"/>
 			<item value="C:\GenerationsAlan\Workspace\GitPractica2Cohort15"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">

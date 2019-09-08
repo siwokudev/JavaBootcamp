@@ -25,6 +25,19 @@
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\GenerationsAlan\Workspace\qtmeatsSpring\qtmeats"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
 	<section name="MavenProjectWizardArchetypePage">
 		<item value="All Catalogs" key="catalog"/>
 		<list key="projectNameTemplate">
@@ -38,6 +51,7 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="QTMeats"/>
 			<item value="SpringPractica1"/>
 			<item value="JSFPractica3"/>
 			<item value="JSFHolaMundo"/>
@@ -49,7 +63,6 @@
 			<item value="RestPractica3"/>
 			<item value="RestPractica2"/>
 			<item value="RestPractica1"/>
-			<item value="QTMeats"/>
 			<item value="MVCPractica10CrudAjax"/>
 			<item value="TercerCRUDconAJAX"/>
 			<item value="SegundoCRUD"/>
@@ -57,6 +70,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="QTMeats"/>
 			<item value="SpringPractica1"/>
 			<item value="JSFPractica3"/>
 			<item value="JSFHolaMundo"/>
@@ -68,7 +82,6 @@
 			<item value="RestPractica3"/>
 			<item value="RestPractica2"/>
 			<item value="RestPractica1"/>
-			<item value="QTMeats"/>
 			<item value="MVCPractica10CrudAjax"/>
 			<item value="TercerCRUDconAJAX"/>
 			<item value="SegundoCRUD"/>
